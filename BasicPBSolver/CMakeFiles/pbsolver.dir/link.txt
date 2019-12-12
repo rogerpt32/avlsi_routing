@@ -1,0 +1,1 @@
+g++  -O3 -std=c++11 -static -Wno-unused-result -O3 -DNDEBUG  -rdynamic CMakeFiles/pbsolver.dir/main.cpp.o CMakeFiles/pbsolver.dir/SATSolverClauseDatabase.cpp.o  -o pbsolver  -L/home/rpujol/pblib/BasicPBSolver/../lib  -L/home/rpujol/pblib/BasicPBSolver/minisat -Wl,-rpath,/home/rpujol/pblib/BasicPBSolver/../lib:/home/rpujol/pblib/BasicPBSolver/minisat: -lpblib -lminisat 
