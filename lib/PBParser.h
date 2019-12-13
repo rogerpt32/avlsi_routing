@@ -764,7 +764,7 @@ private:
 		std::vector<int> list;
 
 		cb.beginConstraint();
-		std::cout << "Constraint" << std::endl;
+
 		while(!eof())
 		{
 			readTerm(coeff,list);
