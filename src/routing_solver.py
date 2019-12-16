@@ -31,6 +31,7 @@ class Pair:
 def usage():
     print("Usage:")
     print("\tpython3.7 routing_solver.py [pb_file] [-not_opt]")
+    print("\tpython3.7 routing_solver.py [pb_file] [-not_opt] < input_file")
     print("Input:")
     print("\tn m (x and y max sizes)")
     print("\tp (total number of pairs)")
@@ -302,8 +303,8 @@ def main(argc, argv):
                     else:
                         print("UNSAT")
                         left=c_max
-            print("Found Optimal Solution:")
-            show_solution(right_sol,n,m)
+                print("Found Optimal Solution:")
+                show_solution(right_sol,n,m)
 
   
 if __name__== "__main__":
